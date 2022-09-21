@@ -1,9 +1,4 @@
-#Crea una clase llamada Punto con sus coordenadas X e Y.
 
-class Punto:
-    def __init__(self, coordx, coordy):
-      self.coordx = coordy
-      self.coordx = coordy
 
 #Método string para que al imprimir por pantalla un punto aparezca en formato (X,Y)
 
@@ -39,6 +34,9 @@ def cuadrante(self):
     print("{} está en el origen".format(self))
     
     
-            
+
+  def vector(self, p):
+        print("El vector entre {} y {} es ({}, {})".format(
+            self, p, p.coordenada_X - self.coordenada_X, p.coordenada_Y - self.coordenada_Y) )
 
 
