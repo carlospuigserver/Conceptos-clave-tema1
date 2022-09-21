@@ -8,15 +8,15 @@ class rectangulo:
 
 #Definimos la base
 def base(self):
-        print("La base del rectángulo es {}".format( self.vBase ) )
+        print("La base del rectángulo es {}".format( self.base ) )
 
 #Definimos la altura
 def altura(self):
-        print("La altura del rectángulo es {}".format( self.vAltura ) )
+        print("La altura del rectángulo es {}".format( self.altura ) )
 
 #definimos el area
 def area(self):
-        print("El área del rectángulo es {}".format( self.vArea ) )
+        print("El área del rectángulo es {}".format( self.area ) )
 
 
 
